@@ -1,0 +1,29 @@
+{
+  "name": "@node-red-contrib-themes/solarized-light",
+  "version": "0.0.1-rc.1",
+  "description": "A solarized light theme for Node-RED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/node-red-contrib-themes/solarized-light.git"
+  },
+  "keywords": [
+    "node-red",
+    "nodered",
+    "solarized",
+    "light",
+    "theme"
+  ],
+  "author": "Mauricio Bonani @mbonani",
+  "funding": {
+    "type": "Buy me a coffee",
+    "url": "https://www.buymeacoffee.com/mbonani"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/node-red-contrib-themes/solarized-light/issues"
+  },
+  "homepage": "https://github.com/node-red-contrib-themes/solarized-light#readme"
+}
