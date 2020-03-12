@@ -2122,6 +2122,7 @@ html .ui-button.ui-state-disabled:hover,
 html .ui-button.ui-state-disabled:active {
   border-color: var(--Base2);
   background-color: var(--Base3);
+  color: var(--Base01);
 }
 
 .ui-state-hover,
