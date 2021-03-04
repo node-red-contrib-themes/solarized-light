@@ -1,0 +1,26 @@
+/*
+  solarized-light - https://github.com/node-red-contrib-themes/solarized-light
+*/
+
+.red-ui-editor {
+  scrollbar-color: #586E75 rgba(253,246,227,0.5);
+  scrollbar-width: initial;
+}
+
+::-webkit-scrollbar {
+  width: initial;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: rgba(253,246,227,0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #586E75;
+  border-radius: 20px;
+  border: 3px solid #EEE8D5;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(253,246,227,0.5);
+}
