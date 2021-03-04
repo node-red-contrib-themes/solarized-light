@@ -9,30 +9,55 @@
 
 ## About
 
-A solarized light theme for [Node-RED][node-red].
+A [solarized][solarized] light theme for [Node-RED][node-red].
 
 ![screenshot](https://raw.githubusercontent.com/node-red-contrib-themes/solarized-light/master/images/screenshot.png)
 
 ## Install
 
-Change to the Node-RED `userDir` directory, usually `~/.node-red`.
+Install via npm.
 
 ```shell
-cd ~/.node-red
+$ cd ~/.node-red
+$ npm install @node-red-contrib-themes/solarized-light
 ```
 
-Install this package.
+Add the following to the `editorTheme` section of your `settings.js`, and then restart Node-RED.
 
-```shell
-npm install @node-red-contrib-themes/solarized-light
+```js
+editorTheme: {
+    theme: "solarized-light"
+}
 ```
 
-Add the following to the `editorTheme` section of your `settings.js`.
+### Themed Scrollbars (EXPERIMENTAL)
+
+This includes changes to the scrollbars to make them better fit the theme.
+
+**NOTE**: This is ***EXPERIMENTAL*** and may not work on all browsers.
+
+If you want to try it, change the `editorTheme` section of your `settings.js` to
+look like the following, and then restart Node-RED.
+
+```js
+editorTheme: {
+    theme: "solarized-light-scroll"
+}
+```
+
+### Node-RED versions from 1.0.0 to 1.2.9
+
+Add the following to the `editorTheme` section of your `settings.js`, and then restart Node-RED.
 
 ```js
 editorTheme: {
     page: {
-        css: "<HOME>/.node-red/node_modules/@node-red-contrib-themes/solarized-light/theme.css"
+        css: [
+            "<HOME>/.node-red/node_modules/@node-red-contrib-themes/solarized-light/theme.css"
+            // Uncomment the next two lines if you want to use the themed scrollbars.
+            // ,
+            // "<HOME>/.node-red/node_modules/@node-red-contrib-themes/solarized-light/theme-scrollbars.css",
+        ]
     }
 }
 ```
@@ -43,25 +68,7 @@ example, `/home/username`.
 For more details on the configuration please refer to the
 [Node-RED official documentation][node-red-doc].
 
-Restart Node-RED.
-
 Enjoy!
-
-## Update
-
-Change to the Node-RED `userDir` directory, usually `~/.node-red`.
-
-```shell
-cd ~/.node-red
-```
-
-Update this package.
-
-```shell
-npm update @node-red-contrib-themes/solarized-light
-```
-
-Reload the Node-RED page on the web browser.
 
 ## License
 
@@ -77,3 +84,4 @@ Reload the Node-RED page on the web browser.
 [node-red]: https://nodered.org/
 [npm-package]: https://nodei.co/npm/@node-red-contrib-themes/solarized-light
 [npm-shield]: https://nodei.co/npm/@node-red-contrib-themes/solarized-light.png
+[solarized]: https://ethanschoonover.com/solarized/

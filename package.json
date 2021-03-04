@@ -25,5 +25,10 @@
   "bugs": {
     "url": "https://github.com/node-red-contrib-themes/solarized-light/issues"
   },
-  "homepage": "https://github.com/node-red-contrib-themes/solarized-light#readme"
+  "homepage": "https://github.com/node-red-contrib-themes/solarized-light#readme",
+  "node-red": {
+    "plugins": {
+      "solarized-light": "theme.js"
+    }
+  }
 }
