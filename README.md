@@ -7,7 +7,7 @@
 
 [![NPM Shield][npm-shield]][npm-package]
 
-## About
+<a href="https://www.buymeacoffee.com/mbonani" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" height="60px" width="217px"></a>
 
 A [solarized][solarized] light theme for [Node-RED][node-red].
 
