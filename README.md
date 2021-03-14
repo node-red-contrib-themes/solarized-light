@@ -9,7 +9,7 @@
 
 <a href="https://www.buymeacoffee.com/mbonani" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" height="60px" width="217px"></a>
 
-A [solarized][solarized] light theme for [Node-RED][node-red].
+A light theme for [Node-RED][node-red] based on the [Solarized color palette][solarized] by [Ethan Schoonover][schoonover].
 
 ![screenshot](https://raw.githubusercontent.com/node-red-contrib-themes/solarized-light/master/images/screenshot.png)
 
@@ -84,4 +84,5 @@ Enjoy!
 [node-red]: https://nodered.org/
 [npm-package]: https://nodei.co/npm/@node-red-contrib-themes/solarized-light
 [npm-shield]: https://nodei.co/npm/@node-red-contrib-themes/solarized-light.png
+[schoonover]: https://ethanschoonover.com
 [solarized]: https://ethanschoonover.com/solarized/
