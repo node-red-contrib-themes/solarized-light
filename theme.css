@@ -2093,6 +2093,11 @@ color: #657B83;
   border-color: #EEE8D5;
 }
 
+.red-ui-typedInput-container[disabled] input,
+.red-ui-typedInput-container[disabled] button {
+  background: #EEE8D5;
+}
+
 .red-ui-typedInput-options {
   border-color: #EEE8D5;
   background-color: #FDF6E3;
