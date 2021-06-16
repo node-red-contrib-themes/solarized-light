@@ -59,7 +59,7 @@ editorTheme: {
             "<user-dir>/node_modules/@node-red-contrib-themes/solarized-light/theme.css"
             // Uncomment the next two lines if you want to use the themed scrollbars.
             // ,
-            // "<user-dir>/node_modules/@node-red-contrib-themes/solarized-light/theme-scrollbars.css",
+            // "<user-dir>/node_modules/@node-red-contrib-themes/solarized-light/scrollbars.css",
         ]
     }
 }
