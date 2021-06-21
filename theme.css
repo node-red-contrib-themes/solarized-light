@@ -2134,6 +2134,10 @@ color: #657B83;
   background-color: #EEE8D5;
 }
 
+.red-ui-typedInput-options img {
+  filter: brightness(0) saturate(100%) invert(48%) sepia(10%) saturate(655%) hue-rotate(150deg) brightness(94%) contrast(89%);
+}
+
 .red-ui-workspace-chart-background {
   fill: #FDF6E3;
 }
@@ -3144,6 +3148,15 @@ button.red-ui-sidebar-header-button.toggle.selected:not(.disabled):not(:disabled
 button.red-ui-typedInput-option-trigger .red-ui-typedInput-option-label {
   background-color: #FDF6E3;
   color: #657B83;
+}
+
+button.red-ui-typedInput-type-select .red-ui-typedInput-type-label img,
+button.red-ui-typedInput-type-select .red-ui-typedInput-option-label img,
+button.red-ui-typedInput-option-expand .red-ui-typedInput-type-label img,
+button.red-ui-typedInput-option-expand .red-ui-typedInput-option-label img,
+button.red-ui-typedInput-option-trigger .red-ui-typedInput-type-label img,
+button.red-ui-typedInput-option-trigger .red-ui-typedInput-option-label img {
+  filter: brightness(0) saturate(100%) invert(48%) sepia(10%) saturate(655%) hue-rotate(150deg) brightness(94%) contrast(89%);
 }
 
 button.red-ui-typedInput-type-select,
