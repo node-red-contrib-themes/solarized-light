@@ -42,7 +42,7 @@
 }
 
 .ace-tomorrow .ace_gutter-active-line {
-  background-color : #EDE5C1
+  background-color: #EDE5C1
 }
 
 .ace-tomorrow .ace_marker-layer .ace_selected-word {
@@ -115,7 +115,7 @@
 }
 
 .nr-db-sb-list-handle {
-  color:  #657B83 !important;
+  color: #657B83 !important;
 }
 
 .nr-db-sb-list-header,
@@ -195,7 +195,7 @@ button.red-ui-typedInput-option-trigger .red-ui-typedInput-option-label img {
 .red-ui-icon-picker i.spinner {
   background: url(/red/images/spin.svg) no-repeat 50% 50%;
   filter: brightness(0) saturate(100%) invert(48%) sepia(10%) saturate(655%) hue-rotate(150deg) brightness(94%) contrast(89%);
-  }
+}
 
 img.red-ui-tab-icon {
   filter: brightness(0) saturate(100%) invert(40%) sepia(17%) saturate(437%) hue-rotate(148deg) brightness(98%) contrast(90%);
@@ -222,9 +222,8 @@ img.red-ui-tab-icon {
 }
 
 /* 
-  Config nodes
+* Config nodes
 */
-
 ul.red-ui-sidebar-node-config-list .red-ui-palette-label {
   color: #586e75;
 }
