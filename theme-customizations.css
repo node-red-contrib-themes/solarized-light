@@ -111,51 +111,51 @@
 * Node-RED Dashboard
 */
 .nr-db-sb-group-list li {
-  border-bottom-color: #FDF6E3 !important;
+  border-bottom-color: var(--red-ui-secondary-background) !important;
 }
 
 .nr-db-sb-list-handle {
-  color: #657B83 !important;
+  color: var(--red-ui-primary-text-color) !important;
 }
 
 .nr-db-sb-list-header,
 .nr-db-sb-tab-list-item {
-  color: #657B83 !important;
+  color: var(--red-ui-primary-text-color) !important;
 }
 
 .nr-db-sb-list-header:hover,
 .nr-db-sb-group-list-header:hover,
 .nr-db-sb-widget-list-header:hover {
-  background-color: #EEE8D5 !important;
-  color: #657B83 !important;
+  background-color: var(--red-ui-primary-background) !important;
+  color: var(--red-ui-primary-text-color) !important;
 }
 
 .nr-db-sb-tab-list-header {
-  background-color: #FDF6E3 !important;
+  background-color: var(--red-ui-secondary-background) !important;
 }
 
 /*
 * Grip on separators
 */
 .red-ui-panels-separator {
-  border-top-color: #93A1A1;
-  border-bottom-color: #93A1A1;
-  background: #EEE8D5 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAFCAYAAAAHQL+kAAAAIElEQVQ4T2NkGCaAMbW6+f9w8MuoRwZbLDIONgeR6x4A0oYHLJlVow0AAAAASUVORK5CYII=") no-repeat 50% 50%;
+  border-top-color: var(--red-ui-secondary-border-color);
+  border-bottom-color: var(--red-ui-secondary-border-color);
+  background: var(--red-ui-primary-background) url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAFCAYAAAAHQL+kAAAAIElEQVQ4T2NkGCaAMbW6+f9w8MuoRwZbLDIONgeR6x4A0oYHLJlVow0AAAAASUVORK5CYII=") no-repeat 50% 50%;
 }
 
 .red-ui-panels.red-ui-panels-horizontal>.red-ui-panels-separator {
-  background: #EEE8D5 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAyAQMAAACu3oOzAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAZQTFRFAAAAZXuDUwHCowAAAAJ0Uk5TAP9bkSK1AAAADUlEQVR4nGMoYKA5BABGYBXhGD2hFwAAAABJRU5ErkJggg==") no-repeat 50% 50%;
-  border-left-color: #93A1A1;
-  border-right-color: #93A1A1;
+  background: var(--red-ui-primary-background) url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAyAQMAAACu3oOzAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAZQTFRFAAAAZXuDUwHCowAAAAJ0Uk5TAP9bkSK1AAAADUlEQVR4nGMoYKA5BABGYBXhGD2hFwAAAABJRU5ErkJggg==") no-repeat 50% 50%;
+  border-left-color: var(--red-ui-secondary-border-color);
+  border-right-color: var(--red-ui-secondary-border-color);
 }
 
 #red-ui-sidebar-separator {
-  background: #EEE8D5 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAyAQMAAACu3oOzAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAZQTFRFAAAAZXuDUwHCowAAAAJ0Uk5TAP9bkSK1AAAADUlEQVR4nGMoYKA5BABGYBXhGD2hFwAAAABJRU5ErkJggg==") no-repeat 50% 50%;
+  background: var(--red-ui-primary-background) url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAyAQMAAACu3oOzAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAZQTFRFAAAAZXuDUwHCowAAAAJ0Uk5TAP9bkSK1AAAADUlEQVR4nGMoYKA5BABGYBXhGD2hFwAAAABJRU5ErkJggg==") no-repeat 50% 50%;
 }
 
 .red-ui-tray-resize-handle {
-  background: #EEE8D5 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAyAQMAAACu3oOzAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAZQTFRFAAAAZXuDUwHCowAAAAJ0Uk5TAP9bkSK1AAAADUlEQVR4nGMoYKA5BABGYBXhGD2hFwAAAABJRU5ErkJggg==") no-repeat 50% 50%;
-  border-left-color: #93A1A1;
+  background: var(--red-ui-primary-background) url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAyAQMAAACu3oOzAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAZQTFRFAAAAZXuDUwHCowAAAAJ0Uk5TAP9bkSK1AAAADUlEQVR4nGMoYKA5BABGYBXhGD2hFwAAAABJRU5ErkJggg==") no-repeat 50% 50%;
+  border-left-color: var(--red-ui-primary-border-color);
 }
 
 /*
@@ -202,13 +202,13 @@ button.red-ui-typedInput-option-trigger .red-ui-typedInput-option-label img {
 * jQuery ui widgets
 */
 .ui-widget.ui-widget-content {
-  border-color: #93A1A1;
+  border-color: var(--red-ui-secondary-border-color);
 }
 
 .ui-widget-content {
-  border-color: #93A1A1;
-  background: #FDF6E3;
-  color: #657B83;
+  border-color: var(--red-ui-secondary-border-color);
+  background: var(--red-ui-secondary-background);
+  color: var(--red-ui-primary-text-color);
 }
 
 /*
@@ -222,9 +222,9 @@ button.red-ui-typedInput-option-trigger .red-ui-typedInput-option-label img {
 * Config nodes
 */
 ul.red-ui-sidebar-node-config-list .red-ui-palette-label {
-  color: #586e75;
+  color: var(--red-ui-primary-text-color);
 }
 
 ul.red-ui-sidebar-node-config-list .red-ui-palette-node {
-  border-color: #93A1A1;
+  border-color: var(--red-ui-primary-border-color);
 }
