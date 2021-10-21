@@ -1,4 +1,4 @@
-# Solarized Light Node-RED theme
+# Node-RED Contrib Theme: Solarized Light
 
 ![Project Maintenance][maintenance-shield]
 [![License][license-shield]](LICENSE)
