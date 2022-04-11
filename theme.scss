@@ -194,7 +194,7 @@ $view-lasso-fill: rgba(20,125,255,0.1);
 
 $view-background: $secondary-background;
 $view-select-mode-background: $secondary-background-selected;
-$view-grid-color: #eee8d5;
+$view-grid-color: $primary-background;
 
 $node-label-color: #333;
 $node-port-label-color: #888;
@@ -238,7 +238,7 @@ $link-disabled-color: #ccc;
 $link-link-active-color: #ff7f0e;
 $link-unknown-color: #f00;
 
-$clipboard-textarea-background: #eee8d5;
+$clipboard-textarea-background: $primary-background;
 
 
 $deploy-button-color: #eee;
