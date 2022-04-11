@@ -290,11 +290,11 @@ $debug-message-border-hover: #fdf6e3;
 $debug-message-border-warning: $border-color-warning;
 $debug-message-border-error: $border-color-error;
 
-$group-default-fill: none;
-$group-default-fill-opacity: 1;
-$group-default-stroke: #657b83;
+$group-default-fill: $primary-background;
+$group-default-fill-opacity: 0.5;
+$group-default-stroke: $primary-border-color;
 $group-default-stroke-opacity: 1;
-$group-default-label-color: #657b83;
+$group-default-label-color: $primary-text-color;
 
 $tourGuide-border: #c56c6c;
 $tourGuide-heading-color: #c56c6c;
