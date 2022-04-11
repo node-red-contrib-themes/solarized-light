@@ -79,14 +79,14 @@ $form-tips-background: #ffe;
 
 
 $text-editor-color: #586e75;//#00f;
-$text-editor-background: $secondary-background;
+$text-editor-background: #FDF6E3;
 $text-editor-color-disabled: $secondary-text-color-inactive;
 $text-editor-background-disabled: $secondary-background-disabled;
-$text-editor-gutter-background: #f6f6f6;//#ee0;
-$text-editor-gutter-color: #777;//#00e;
-$text-editor-gutter-active-line-background: #dcdcdc;//#dd0;
-$text-editor-active-line-background: #efefef;//#ee0;
-$text-editor-selection-background: #D6D6D6;//#e0e;
+$text-editor-gutter-background: #fbf1d3;//#ee0;
+$text-editor-gutter-color: #333;//#00e;
+$text-editor-gutter-active-line-background: #EDE5C1;//#dd0;
+$text-editor-active-line-background: #EEE8D5;//#ee0;
+$text-editor-selection-background: rgba(7, 54, 67, 0.09);//#e0e;
 
 $event-log-background: #fdf6e3;
 $event-log-color: #586e75;
